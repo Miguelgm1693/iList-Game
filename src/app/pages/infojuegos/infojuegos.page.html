@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="listajuegos"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Información {{juego.titulo}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+
+  <h3><b>Título:</b> {{juego.titulo}} </h3>
+  <h5><b>Género:</b> {{juego.categoria}} </h5>
+  <h5><b>Plataforma:</b> {{juego.plataforma}} </h5>
+  <h5><b>Inicio juego:</b> {{juego.inicio}} </h5>
+  <h5><b>Nota del juego:</b> {{juego.nota}} </h5>
+  <h5><b>Completado:</b> {{juego.completado}} </h5>
+
+
+</ion-content>

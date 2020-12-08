@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Listado de Juegos</ion-title>
+
+    <ion-buttons slot="end" padding>
+      <ion-button (click)= "goEditJuegos()">           
+        <ion-icon slot="icon-only" name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-item *ngFor="let j of juegosService.getJuegos()">
+    <ion-label>
+      <h2>{{j.titulo}}</h2>
+      <h3>{{j.categoria}}</h3>
+      <p>{{j.plataforma}}</p>
+      
+    </ion-label>
+
+    <ion-icon name="blank"></ion-icon>
+
+    
+    <ion-button color="warning" (click)="goInfoJuegos(j.id)" >
+      <ion-icon name="information-circle-outline"></ion-icon>
+    </ion-button>
+
+    <ion-icon name="blank"></ion-icon>
+
+    <ion-button color="success"(click)="goEditJuegos(j.id)">
+      <ion-icon name="pencil"></ion-icon>
+    </ion-button> 
+  
+
+    <ion-button color="danger"(click)="presentAlertConfirm(j)">
+      <ion-icon slot="icon-only" name="trash" ></ion-icon>
+    </ion-button>
+
+
+  </ion-item>
+
+
+</ion-content>
