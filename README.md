@@ -4,7 +4,7 @@ Proyecto para asignatura de Acceso a Datos de CFGS Desarrollo aplicaciones Multi
 
 Aplicación para guardar lista de videojuegos a los que has jugado.
 
-##Sobre la aplicación
+## Sobre la aplicación
 
 Aplicación realizada en Ionic.
 - Permite agregar a la lista un videojuego.
@@ -13,7 +13,7 @@ Aplicación realizada en Ionic.
 - Marca si has completado el videojuego.
 
 
-##¿Como usar la App?
+## ¿Como usar la App?
 
 ### Agregar juego a lista
 
