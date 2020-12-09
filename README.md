@@ -4,7 +4,7 @@ Proyecto para asignatura de Acceso a Datos de CFGS Desarrollo aplicaciones Multi
 
 # iList-Game
 
-Aplicación para guardar lista de videojuegos a los que has jugado.
+Aplicación para guardar lista de videojuegos a los que has jugado. V.1.0
 
 ## Sobre la aplicación
 
