@@ -1,5 +1,7 @@
 Proyecto para asignatura de Acceso a Datos de CFGS Desarrollo aplicaciones Multiplataforma (2ºDAM).
 
+![](logo_ilist.png)
+
 # iList-Game
 
 Aplicación para guardar lista de videojuegos a los que has jugado.
@@ -17,15 +19,19 @@ Aplicación realizada en Ionic.
 
 ### Agregar juego a lista
 
-![]()
+![](01.gif)
 
 ### Editar juego de la lista
 
-![]()
+![](02.gif)
+
+### Ver información de juego
+
+![](03.gif)
 
 ### Eliminar juego de la lista
 
-![]()
+![](04.gif)
 
 
 
