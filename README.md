@@ -1,6 +1,6 @@
 Proyecto para asignatura de Acceso a Datos de CFGS Desarrollo aplicaciones Multiplataforma (2ºDAM).
 
-![](logo_ilist.png)
+![image](logo_ilist.png)
 
 # iList-Game
 
